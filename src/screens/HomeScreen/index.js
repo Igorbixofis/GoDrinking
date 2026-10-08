@@ -2,10 +2,14 @@ import { View } from "react-native"
 import { Image } from "react-native"
 import { OurOffers } from "../../components/OurOffers"
 import {logo} from "../../assets/images/logo.png"
+import { styles } from "./style"
+
+
+
 export const HomeScreen = () =>{
     return(
-        <View> 
-           <Image source={logo}/>
+        <View style={styles.containerHomeScreen} > 
+           <Image source={logo} style={styles.logoHome}/>
            <OurOffers/>
         </View>
     )
