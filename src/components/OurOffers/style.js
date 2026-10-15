@@ -4,6 +4,9 @@ import { fonts } from "../../themes/fonts";
 
 
 export const styles = StyleSheet.create({
+    containerOurOffers:{
+        gap:10
+    },
     textOurOffers:{
     color: colors.colorWhite,
     fontSize: 25,

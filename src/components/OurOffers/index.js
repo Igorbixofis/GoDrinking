@@ -7,7 +7,7 @@ import { styles } from "./style"
 
 export const OurOffers = () => {
     return(
-        <View>
+        <View style = {styles.containerOurOffers}>
 
             <Text style = {styles.textOurOffers }> Nossas  <Text style={styles.textHighLights}>Ofertas</Text></Text>
              <ScrollView horizontal contentContainerStyle = {styles.scrollContent}>
