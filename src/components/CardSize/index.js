@@ -1,11 +1,12 @@
 import{View, Text, Image} from "react-native"
+import { styles } from "./style"
 
 export const CardSize = ({image, amount, measure}) => {
     return(
-        <View>
-         <Image/>
+        <View style={styles.cardSize}>
+            <Image source={image} style={styles.productImage}/>
 
-         <Text>{amount}<Text>{measure}</Text></Text>
+            <Text style={styles.textAmount}>{amount}<Text style={styles.textMeasure}>{measure}</Text></Text>
         </View>
     )
 }

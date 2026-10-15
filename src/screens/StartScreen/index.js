@@ -19,7 +19,7 @@ export const StartScreen = () => {
         <Text style = {styles.textWelcome}>Seu app para comprar energéticos de forma rápida, prática e segura. Encontre suas marcas favoritas e receba onde estiver.</Text>
 
         <ButtonPrimary title = "Entrar"/>
-        <ButtonOutline title= "Cadastraer" style = {styles.ButtonOutline}/>
+        <ButtonOutline title= "Cadastrar" style = {styles.ButtonOutline}/>
     </View>
     )
 }
