@@ -7,8 +7,8 @@ export const CardProduct = ({image, title , description}) => {
             <Image source = {image} style = {style.imgProduct}/>
             <Text style={style.titleProduct}>{title}</Text>
             <Text style={style.descriptionProduct}>{description}</Text>
-            <Pressable>
-                <Text> Saiba mais  </Text>
+            <Pressable style = {style.btnLearnMore}>
+                <Text style = {style.textBtn}> Saiba mais  </Text>
             </Pressable>
  
         </View>
