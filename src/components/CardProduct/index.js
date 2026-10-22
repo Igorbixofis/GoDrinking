@@ -1,11 +1,12 @@
 import { Image,Pressable,View, Text } from "react-native"
+import { style } from "./style"
 
-export const CardProduct = ({Image, title , description}) => {
+export const CardProduct = ({image, title , description}) => {
     return(
-        <View>
-            <Image source = {Image}/>
-            <Text>{title}</Text>
-            <Text>{description}</Text>
+        <View style = {style.cardContainer}>
+            <Image source = {image} style = {style.imgProduct}/>
+            <Text style={style.titleProduct}>{title}</Text>
+            <Text style={style.descriptionProduct}>{description}</Text>
             <Pressable>
                 <Text> Saiba mais  </Text>
             </Pressable>

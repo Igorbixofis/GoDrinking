@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { CardSize } from ".";
 import { colors } from "../../themes/colors";
+import { fonts } from "../../themes/fonts";
 
 export const styles = StyleSheet.create({
     cardSize:{

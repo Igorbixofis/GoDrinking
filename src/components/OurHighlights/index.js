@@ -1,16 +1,17 @@
 import { ScrollView, Text, View } from "react-native"
 import { CardProduct } from "../CardProduct"
-import tnt from "../../assets/images/tnt.png "
+import tnt from "../../assets/images/tnt.png"
+import { Styles } from "./style"
 
 export const OurHighLights = () => {
     return(
-        <View>
+        <View Style = {Styles.container}>
 
-            <Text> Nossos <Text>Destaques</Text></Text>
+            <Text Styles = { Styles.textOurHighLights}> Nossos <Text Styles = {Styles.textHighLights}>Destaques</Text></Text>
 
-            <ScrollView>
-                <CardProduct image={ tnt} title = "TNT Roxo" description="Nosso sabor conta como..." />
-            </ScrollView>
+            <View>
+                <CardProduct image={tnt} title = "TNT Roxo" description="Nosso sabor conta como..." />
+            </View>
         </View>
     )
 }
