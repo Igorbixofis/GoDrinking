@@ -15,5 +15,10 @@ export const Styles = StyleSheet.create({
     },
     textHighLights:{
         color: colors.colorHotDrink
+    },
+    containerProducts:{
+        flexDirection:"row",
+        flexWrap:"wrap",
+        gap:10
     }
 })

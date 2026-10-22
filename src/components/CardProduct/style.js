@@ -10,7 +10,7 @@ export const style = StyleSheet.create({
         borderColor: colors.colorDeepMagenta,
         borderRadius:13,
         backgroundColor: "#270053",
-        width:185,
+        width:180,
         alignItems:"center"
 
     },
