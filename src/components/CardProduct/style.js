@@ -23,7 +23,7 @@ export const style = StyleSheet.create({
         fontWeight:"400",
         fontFamily: fonts.fontTitle,
         color: colors.colorWhite,
-        textAlign:"left"
+        alignSelf:"flex-start"
     },
     descriptionProduct:{
         fontSize:15,
