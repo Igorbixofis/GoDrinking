@@ -13,7 +13,11 @@ export const styles = StyleSheet.create({
     textWelcome:{
         color:colors.colorGrey,
         fontFamily: fonts.fontBody,
-        fontSize: 20
+        fontSize: 20,
+        textAlign:"center"
+    },
+    teste:{
+        color:"#fff"
     }
 })
 
